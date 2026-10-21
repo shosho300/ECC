@@ -1,0 +1,23 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "cssd-central-hub",
+    "environment": "spo",
+    "useGulp": false,
+    "componentType": "webpart",
+    "template": "none",
+    "componentName": "CssdCentralHub",
+    "componentDescription": "CSSD Central Hub",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.22.0",
+    "sdksVersions": {},
+    "version": "1.23.2",
+    "libraryName": "cssd-central-hub",
+    "libraryId": "44ecebcd-e758-4e70-8eb0-18b803036ffc",
+    "packageManager": "npm",
+    "solutionShortDescription": "cssd-central-hub description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "cssd-central-hub",
+    "id": "44ecebcd-e758-4e70-8eb0-18b803036ffc",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Shrooq Almeshari",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "CSSD Central Hub web part for SharePoint"
+      },
+      "longDescription": {
+        "default": "Central Sterile Services Department hub: external orders, incoming orders and receiving, issues, shift handover and parameters, loaner sets, department dashboard, IFU library, emergency cases and recall. Records are stored in SharePoint lists on the site."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "CSSD Central Hub",
+        "description": "Adds the CSSD Central Hub web part.",
+        "id": "d0c0b43b-d616-4d9b-9998-9a0842c9ba99",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/cssd-central-hub.sppkg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cssd-central-hub-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cssdCentralHub/CssdCentralHubWebPart.js",
+          "manifest": "./src/webparts/cssdCentralHub/CssdCentralHubWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CssdCentralHubWebPartStrings": "lib/webparts/cssdCentralHub/loc/{locale}.js"
+  }
+}
